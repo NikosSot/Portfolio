@@ -1,1 +1,1 @@
-- Detecting Brute-Force Login Attempts Using Splunk SIEM
+Detecting Brute-Force Login Attempts Using Splunk SIEM
