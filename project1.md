@@ -5,7 +5,8 @@
 - Ran python code as follows
 <img width="1045" height="934" alt="python code for data " src="https://github.com/user-attachments/assets/123cbd06-179b-48e2-9dce-d45a50e60d6a" />
 - Generated output
-<img width="1045" height="934" alt="python code for data " src="https://github.com/user-attachments/assets/ec00ce94-d4af-43a3-9517-1d39a5f06790" />
+<img width="986" height="997" alt="python code output" src="https://github.com/user-attachments/assets/537bcd70-bc6c-44f0-804a-ad4829e8bd28" />
+
 
 - Uploaded output into splunk 
 <img width="1915" height="927" alt="splunk added data" src="https://github.com/user-attachments/assets/a30e048d-266f-4298-b033-a31916b73849" />
