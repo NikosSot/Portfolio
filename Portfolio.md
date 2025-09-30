@@ -9,11 +9,14 @@
   - 5
   -
 <h2>👨‍💻 Training:</h2>
+
   - Google cybersecurity professional certificate
-  - Foundations of Cybersecurity (completed) 
+    
+     Foundations of Cybersecurity (completed) 
     
   - Tryhack me practice
-      - Pre Security
+
+      Pre Security
     
   
 
