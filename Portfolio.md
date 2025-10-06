@@ -4,7 +4,7 @@
 
   - [Project 1](./project1.md): Detecting Brute-Force Login Attempts Using Splunk SIEM
 
-  - Project 2: 
+  - [Project 2](./project2.md): Suspicious Traffic Analysis with Wireshark
  
   - Project 3:
   - 
