@@ -1,8 +1,8 @@
 <h1>Hi, I'm Nikos! <br/><a  <a href="https://www.linkedin.com/in/nikolaos-sotiriou-6a5b1b384/">Cybersecurity Professional</a> 
 
-  [Statement](./statement.md)
+<h3>  [Statement](./statement.md)
 
-<h3>👨‍💻 Cybersecurity Projects:</h2>
+<h2>👨‍💻 Cybersecurity Projects:</h2>
 
   - [Project 1](./project1.md): Detecting Brute-Force Login Attempts Using Splunk SIEM
 
