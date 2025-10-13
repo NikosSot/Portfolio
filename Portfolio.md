@@ -1,8 +1,8 @@
 <h1>Hi, I'm Nikos! <br/><a  <a href="https://www.linkedin.com/in/nikolaos-sotiriou-6a5b1b384/">Cybersecurity Professional</a> 
 
-<h3>  [Statement](./statement.md)
+<h2>  [Statement](./statement.md)
 
-<h2>👨‍💻 Cybersecurity Projects:</h2>
+<h3>👨‍💻 Cybersecurity Projects:</h3>
 
   - [Project 1](./project1.md): Detecting Brute-Force Login Attempts Using Splunk SIEM
 
@@ -12,7 +12,7 @@
   - 
   - 
   -
-<h3>👨‍💻 Training:</h2>
+<h3>👨‍💻 Training:</h3>
 
   - Google cybersecurity professional certificate
     
