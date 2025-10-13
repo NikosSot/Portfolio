@@ -1,5 +1,5 @@
 <h1>Hi, I'm Nikos! <br/><a  <a href="https://www.linkedin.com/in/nikolaos-sotiriou-6a5b1b384/">Cybersecurity Professional</a>
-  <h2> [statement](./statement.md)</h2>
+    [Statement](./statement.md)
 
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
