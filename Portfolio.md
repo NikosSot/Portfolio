@@ -5,7 +5,7 @@
 
 ### 👨‍💻 Cybersecurity Projects
 - [Project 1](./project1.md): Detecting Brute-Force Login Attempts Using Splunk SIEM  
-- [Project 2](./project2.md): Suspicious Traffic Analysis with Wireshark  
+- [Project 2](./project2.md): Enabling advanced Windows(home) security logging 
 - [permissionsproject](./permissionsproject.md): File permissions in Linux
 
 ### 👨‍🎓 Training
