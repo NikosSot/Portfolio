@@ -30,6 +30,7 @@ According to my data, 19 failed attempts have been made after 18:00.
 
 **Retrieve login attempts on specific dates**
 
+
 My team is investigating a suspicious event that occurred on '2022-05-09'. I need to retrieve all login attempts that occurred on this day and the day before ('2022-05-08').
 
 The login_date column in the log_in_attempts table contains information on the dates when login attempts were made.
