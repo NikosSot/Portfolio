@@ -15,7 +15,6 @@ My team is investigating failed login attempts that were made after business hou
 
 The login_time column in the log_in_attempts table contains information on when login attempts were made. Office hours end at '18:00'.
 
-The success column in the log_in_attempts table contains values of TRUE or FALSE to indicate whether the login was successful. MySQL stores Boolean values as 1 for TRUE, and 0 for FALSE. This means that TRUE is represented as 1, and FALSE represented as 0 in the success column.
 <img width="886" height="501" alt="Screenshot 2026-06-08 130405" src="https://github.com/user-attachments/assets/1d61aa37-eeaa-4604-a235-c7a85789d3da" />
 According to my data, 19 failed attempts have been made after 18:00.
 
