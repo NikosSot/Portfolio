@@ -7,6 +7,7 @@
 - [Project 1](./project1.md): Detecting Brute-Force Login Attempts Using Splunk SIEM  
 - [Project 2](./project2.md): Enabling advanced Windows(home) security logging 
 - [Project 3](./project3.md): File permissions in Linux
+- [Project 4](./project4.md): SQL queries activity
 
 ### 👨‍🎓 Training
 - **Google Cybersecurity Professional Certificate**  
