@@ -1,13 +1,12 @@
-**Project description**
+## Scenario
 
-In this scenario, I need to obtain specific information about employees, their machines, and the departments they belong to from the database.
+A security monitoring system generated multiple authentication-related alerts indicating:
 
-My team needs data to investigate potential security issues and to update computers.
+- repeated failed login attempts outside business hours  
+- anomalous login activity across multiple dates  
+- potential access attempts from unexpected geographic locations  
 
-I am responsible for filtering the required information from the database.
-
-Here’s how I’ll do this task: First, I’ll retrieve all failed login attempts after business hours. Second, I’ll retrieve all login attempts that occurred on specific dates. Third, I’ll retrieve logins that didn't originate in Mexico. Fourth, I’ll retrieve information about certain employees in the Marketing department. Fifth, I’ll retrieve information about employees in the Finance or the Sales department. Finally, I’ll obtain information about employees who are not in the Information Technology department.
-
+As a Tier 1 SOC analyst, I was assigned to investigate these events using SQL-based log analysis.
 
 **Retrieve after hours failed login attempts**
 
