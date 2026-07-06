@@ -1,21 +1,40 @@
+# SOC Investigation: Authentication & Employee Risk Analysis Using SQL
+
+---
+
+## Tools Used
+- SQL
+- Relational database (log tables)
+- Authentication log analysis
+
+---
+
 ## Scenario
 
-A security monitoring system generated multiple authentication-related alerts indicating:
-
-- repeated failed login attempts outside business hours  
-- anomalous login activity across multiple dates  
-- potential access attempts from unexpected geographic locations  
+A security monitoring system generated multiple authentication-related alerts indicating suspicious login behavior.
 
 As a Tier 1 SOC analyst, I was assigned to investigate these events using SQL-based log analysis.
 
-**Retrieve after hours failed login attempts**
+---
 
-My team is investigating failed login attempts that were made after business hours. I want to retrieve this information from the login activity. I’ll identify all unsuccessful attempts after 18:00.
+## Objectives
 
-The login_time column in the log_in_attempts table contains information on when login attempts were made. Office hours end at '18:00'.
+- Identify failed login patterns after business hours  
+- Detect geographic anomalies  
+- Correlate login activity across multiple dates  
+- Identify high-risk departments  
 
-The following code demonstrates how I created a SQL query to filter for failed login attempts
-that occurred after business hours.
+## After-Hours Failed Login Attempts
+
+### Objective
+Detect potential brute-force activity outside business hours.
+
+### SQL Query
+``sql
+SELECT *
+FROM log_in_attempts
+WHERE login_time > '18:00'
+AND success = FALSE;
 
 <img width="886" height="501" alt="Screenshot 2026-06-08 130405" src="https://github.com/user-attachments/assets/1d61aa37-eeaa-4604-a235-c7a85789d3da" />
 First, I started by selecting all
