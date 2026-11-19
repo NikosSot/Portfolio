@@ -24,17 +24,18 @@ As a Tier 1 SOC analyst, I was assigned to investigate these events using SQL-ba
 - Correlate login activity across multiple dates  
 - Identify high-risk departments  
 
-## After-Hours Failed Login Attempts
+## Findings
 
-### Objective
-Detect potential brute-force activity outside business hours.
+### After-hours failed login attempts
 
-### SQL Query
-``sql
+**Goal:** Detect potential brute-force activity outside business hours.
+
+```sql
 SELECT *
 FROM log_in_attempts
 WHERE login_time > '18:00'
 AND success = FALSE;
+```
 
 <img width="886" height="501" alt="Screenshot 2026-06-08 130405" src="https://github.com/user-attachments/assets/1d61aa37-eeaa-4604-a235-c7a85789d3da" />
 First, I started by selecting all
@@ -46,7 +47,7 @@ login attempts.
 According to my data, 19 failed attempts have been made after 18:00.
 
 
-**Retrieve login attempts on specific dates**
+### Retrieve login attempts on specific dates
 
 
 My team is investigating a suspicious event that occurred on '2022-05-09'. I need to retrieve all login attempts that occurred on this day and the day before ('2022-05-08').
@@ -68,7 +69,7 @@ logins on 2022-05-08.
 
 According to the data there are 75 login attempts in these two days.
 
-**Retrieve login attempts outside of Mexico**
+### Retrieve login attempts outside of Mexico
 
 After investigating the organization’s data on login attempts, I believe there is an issue with the
 login attempts that occurred outside of Mexico. These login attempts should be investigated.
@@ -88,7 +89,7 @@ number of unspecified characters when used with LIKE.
 According to my data there were 144 login attempts made outside of Mexico.
 
 
-**Retrieve employees in Marketing**
+### Retrieve employees in Marketing
 
 My team wants to update the computers for certain employees in the Marketing department.
 To do this, I have to get information on which employee machines to update.
@@ -109,7 +110,7 @@ condition is the office LIKE 'East%' portion, which filters for employees in the
 building.
 
 
-**Retrieve employees in Finance or Sales**
+### Retrieve employees in Finance or Sales
 
 The machines for employees in the Finance and Sales departments also need to be updated.
 Since a different security update is needed, I have to get information on employees only from
@@ -129,7 +130,7 @@ want all employees who are in either department. The first condition is departme
 department = 'Sales', which filters for employees from the Sales department.
 
 
-**Retrieve all employees not in IT**
+### Retrieve all employees not in IT
 
 My team needs to make one more update. This update was already made to employee computers in the Information Technology department. The team needs information about employees who are not in that department. I should use the NOT operator to identify these employees.
 
@@ -142,7 +143,7 @@ The query returns all employees not in the Information Technology department. Fi
 selecting all data from the employees table. Then, I used a WHERE clause with NOT to filter for
 employees not in this department.
 
-**Summary**
+## Summary
 
 I applied filters to SQL queries to get specific information on login attempts and employee
 machines. I used two different tables, log_in_attempts and employees. I used the AND,
